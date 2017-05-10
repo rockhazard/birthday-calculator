@@ -1,5 +1,5 @@
-#What is this?
-birthday calculator
+# What is this?
+A birthday calculator
 
 ## Description
 A birthday calculator designed to find the user's weekday of birth and age.
