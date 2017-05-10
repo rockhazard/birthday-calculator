@@ -1,0 +1,134 @@
+/* Birth Day Calculator */
+
+/*------------------------------------------------------------------------------
+ COLOR GUIDE
+
+ Dark Blue: #1a2254
+ Medium Blue: #3444a8
+ Light Blue: #4e65ff
+ -----------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------------
+GLOBALS
+------------------------------------------------------------------------------*/
+
+html {
+    background-color: #1a2254;
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: 'Baloo', cursive;
+    margin: auto;
+    position: absolute;
+    top: 2px;
+    left: 20px;
+    right: 20px;
+    font-size: 2.5em;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+hr {
+    border-style: solid;
+    border-color: white;
+    margin: 0px;
+    position: absolute;
+    top: 60px;
+}
+
+a {
+    color: #1a2254;
+}
+
+    a: visited {
+        color: #1a2254;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #4e65ff;
+    }
+
+/*------------------------------------------------------------------------------
+IDs
+------------------------------------------------------------------------------*/
+
+#root {
+    background-color: #3444a8;
+    border-style: none;
+    border-radius: 15px;
+    position: relative;
+    margin: auto;
+    width: 500px;
+    height: 130px;
+    padding: 10px;
+    margin-top: 20px;
+    /*box-shadow: 2px 2px 2px #ba5dba;*/
+}
+
+#input {
+    margin: 5px;
+    font-size: 1.3em;
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #0f080f inset;
+    width: 142px;
+    padding: 4px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: absolute;
+    left: 13px;
+    top: 65px;
+}
+
+#output {
+    background: #4e65ff;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.4em;
+    width: 300px;
+    height: 50px;
+    font-weight: bold;
+    padding: 10px;
+    position: absolute;
+    top: 63px;
+    left: 180px;
+}
+
+#weekday {
+    margin: 5px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#years {
+    margin: 5px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+}
+
+#home {
+    background-color: white;
+    text-align: center;
+    font-size: .7em;
+    color: #3444a8;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 13px;
+    bottom: 15px;
+    margin: 5px;
+    padding: 2px;
+    box-shadow: 2px 2px 2px #0f080f;
+}
