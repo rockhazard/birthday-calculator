@@ -8,8 +8,7 @@ Birthday.Calc = (function() {
         "Friday", "Saturday"
     ],
         bdateField = document.getElementById("input"),
-        // display = document.getElementById("output");
-        weekday = document.getElementById("weekday");
+        weekday = document.getElementById("weekday"),
         yearsOld = document.getElementById("years");
 
     // FUNCTIONS
